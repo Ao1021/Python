@@ -1,0 +1,151 @@
+#!/usr/bin/env python
+
+def Test_1():
+    print '-'*60
+    print 'hello'
+    print '-'*60
+    
+def Test_2():
+    print '-'*60
+    a=['Li Lei',18]
+    b=['Han Meimei',18]
+    database=[a,b]
+    print database
+    print '-'*60
+    
+def Test_3():
+    print '-'*60
+    geeting='Hello'
+    print geeting[-2]
+    
+    tag='<a href="http://www.python.org">Python web site</a>'
+    print tag[9:30]
+    print tag[32:-4]
+    print '-'*60
+    
+def Test_3():
+    print '-'*60
+    geeting='Hello'
+    numbers=[1,2,3,4,5,6,7,8,9]
+    print numbers[3:6]
+    print numbers[-1]
+    print numbers[-3:-1]
+    print numbers[-3:]
+    print numbers[:3]
+    print numbers[:]
+    print numbers[0:8:2]
+    print numbers[::2]
+    print '-'*60
+
+def Test_4():
+    print '-'*60
+    a=[1,2,3]
+    b=[4,5,6]
+    print a+b
+    c=[21]
+    print c*10
+    
+    user='Ao'
+    print raw_input('put your name: ') in user
+    
+    print '-'*60
+    
+def Test_5():
+    print '-'*60
+    database=[['a','1234'],['b','2345']]
+    username=raw_input('User name: ')
+    pin=raw_input('PIN code: ')
+    if [username,pin] in database :
+        print 'Access granted'
+    else:
+        print 'not access granted'
+    
+    print '-'*60
+    
+def Test_6():
+    print '-'*60
+    print list('Hello')
+    print '-'*60
+    x=[1,2,3]
+    print x
+    print x[2]
+    print '-'*60
+    
+def Test_7():
+    print '-'*60
+    names=['Alice','Beth','Ceil','Eatl']
+    print names
+    print '-'*60
+    del names[0]
+    print names
+    print '-'*60
+    
+def Test_8():
+    print '-'*60
+    names=list('Alice')
+    print names
+    print '-'*60
+    names[3:]=list('x')
+    print names
+    print list(names)
+    print '-'*60
+    lst=[1,2,3]
+    print lst
+    lst.append(4)
+    print lst
+    print '-'*60
+    x=['to','on','of','in','with','on','of','on']
+    print x.count('on')
+    print x.count('in')
+    print '-'*60
+    a=[1,2,3]
+    b=[4,5,6]
+    #print a+b
+    print a
+    print b
+    a[len(a):]=b
+    print a
+    #print a.extend(b)
+    print '-'*60
+    k=['We','want','to','be','NO.1']
+    print k.index('to')
+    print '-'*60
+    n=[1,2,3,5,6,7]
+    print n
+    n.insert(3,'four')
+    print n
+    print '-'*60
+    x=[1,2,3]
+    print x
+    x.append(x.pop())
+    print x
+    x.pop()
+    print x
+    x.pop(1)
+    print x
+    print '-'*60
+    
+def Test_9():
+    print '-'*60
+    x=['We','want','to','be','NO.1']
+    print x
+    x.reverse()
+    print x
+    x.reverse()
+    print x
+    x.remove('to')
+    print x
+    print '-'*60
+    y=[8,9,6,3,6,8,5,1]
+    print y
+    y.sort()
+    print y
+    print '-'*60
+    print tuple([1,2,3])
+    print tuple('abc')
+    print '-'*60
+
+if __name__ == '__main__':
+    Test_9()
+
+    
